@@ -1,4 +1,4 @@
-# 🔥 React + TypeScript + Vite Template
+# 🔥 React + TypeScript + Vite Template By itsjh1242
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
@@ -9,6 +9,8 @@
 A boilerplate project using React, TypeScript, Vite, TailwindCSS, shadcn-ui, and Zustand for state management. This template is designed for scalable, maintainable, and modern web application development.
 
 React + TypeScript + Vite 기반의 보일러플레이트입니다. 아래 README 내용을 참고하여 사용하시면 됩니다~!
+
+
 
 ---
 
