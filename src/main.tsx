@@ -5,9 +5,15 @@ import { BrowserRouter } from "react-router-dom";
 // route
 import AppRoutes from "@/routes";
 // style
-import "@/index.css";
+import "@/app.css";
+import { applySavedTheme } from "./hooks/theme/mode";
 
 const basename = import.meta.env.VITE_BROWSER_ROUTER_BASE_NAME || "/";
+
+/**
+ * @description check if the user prefers dark mode
+ */
+applySavedTheme();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
